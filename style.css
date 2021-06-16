@@ -9,6 +9,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 	margin: 20px auto;	
+    border: 10px;
+    border-color: blue;
 }
 #calculator{
 	width: 320px;
@@ -19,10 +21,15 @@ body{
 	position: relative;
 	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 10px;
+    border-color: blue;
 }
 #result{
 	height: 120px;
-}
+    border: 10px;
+    border-color: blue;
+ }
+
 #history{
 	text-align: right;
 	height: 20px;
@@ -30,15 +37,22 @@ body{
 	padding-top: 20px;
 	font-size: 15px;
 	color: #919191;
+    border: 10px;
+    border-color: blue;
+    
 }
 #output{
 	text-align: right;
 	height: 60px;
 	margin: 10px 20px;
 	font-size: 30px;
+    border: 10px;
+    border-color: blue;
 }
 #keyboard{
 	height: 400px;
+    border: 10px;
+    border-color: blue;
 }
 .operator, .number, .empty{
 	width: 50px;
@@ -64,27 +78,45 @@ body{
 }
 button:nth-child(4){
 	font-size: 20px;
-	background-color: gray;
+	background-color:rgba(128, 128, 128, 0.61);
 }
 button:nth-child(8){
 	font-size: 20px;
-	background-color: gray;
+	background-color:rgba(128, 128, 128, 0.61);
 }
 button:nth-child(12){
 	font-size: 20px;
-	background-color: gray;
+	background-color: rgba(128, 128, 128, 0.61);
 }
 button:nth-child(16){
 	font-size: 20px;
-	background-color: gray
+	background-color: rgba(128, 128, 128, 0.61);
 }
 button:nth-child(20){
 	font-size: 20px;
-	background-color: gray;
+	background-color:rgba(128, 128, 128, 0.61);
 }
 p.heading{
     color: white;
     text-align: center;
     font-size: 50px;
     font-family: 'Pangolin', cursive;
+}
+
+button:nth-child(1){
+	font-size: 20px;
+	background-color:rgba(128, 128, 128, 0.61);
+    border: 15px;
+}
+
+button:nth-child(2){
+	font-size: 20px;
+	background-color: rgba(128, 128, 128, 0.61);
+    border: 15px;
+}
+
+button:nth-child(3){
+	font-size: 20px;
+	background-color:rgba(128, 128, 128, 0.61);
+    border: 15px;
 }
